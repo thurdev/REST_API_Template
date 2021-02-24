@@ -1,0 +1,3 @@
+yarn sequelize db:migrate # If have any table that wasn't created, when this command is executed the table will be created.
+yarn sequelize db:migrate:undo # Just undo the last migration
+yarn sequelize migration:create --name=migration_name
